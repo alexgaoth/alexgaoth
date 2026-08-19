@@ -1,11 +1,15 @@
-![Dithered gradient field](banner.svg)
 
-# Tianhao (Alex) Gao
+# Alex Gao
 
-Math-CS @ **UC San Diego '29**. I build whole systems rather than pieces of them — autonomy stacks, models from the matrices up, developer tooling — and I ship them.
+Math-CS @ **UC San Diego**.
+🥇Gold, British Informatics Olympiad · 🥇 **2× Gold**, British Mathematical Olympiad I · 🥈 Silver, British Algorithmic Olympiad · **5× hackathon winner**  
+SWE intern @ **IBM** prev. Climind · founded [Signalor](https://signalor.app)
 
-🥇 Gold, British Informatics Olympiad · 🥇 **2× Gold**, British Mathematical Olympiad I · 🥈 Silver, British Algorithmic Olympiad · **5× hackathon winner**  
-GPA **3.98/4.0** · A\*A\*A\*A at St Paul's, London · Software & DevOps @ **IBM** (watsonx Assistant for Z) · prev. Climind · founded [Signalor](https://signalor.app)
+
+I have two career principles:
+I want to build things that people use.
+I yearn to span the knowledge space in its broadest definition.
+Those two principles guide my professional career, and I have and will continuously work towards that.
 
 ## Stack
 
@@ -24,25 +28,21 @@ GPA **3.98/4.0** · A\*A\*A\*A at St Paul's, London · Software & DevOps @ **IBM
 **Tooling**  
 ![Git](https://img.shields.io/badge/Git-161b22?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-161b22?style=flat-square&logo=linux&logoColor=white) ![GNOME](https://img.shields.io/badge/GNOME-161b22?style=flat-square&logo=gnome&logoColor=white) ![Selenium](https://img.shields.io/badge/Selenium-161b22?style=flat-square&logo=selenium&logoColor=white) ![Claude Code](https://img.shields.io/badge/Claude%20Code-161b22?style=flat-square&logo=anthropic&logoColor=white) ![PyPI](https://img.shields.io/badge/PyPI-161b22?style=flat-square&logo=pypi&logoColor=white) ![npm](https://img.shields.io/badge/npm-161b22?style=flat-square&logo=npm&logoColor=white)
 
-> *"i like to think, and make others think."*
-
-## Selected work
+## Stuff I built
 
 | Project | What it is | Built with |
 |---|---|---|
 | **[Signalor](https://signalor.app)** | Public-sentiment platform for brands and investment firms. Sentiment **led Apple's YoY revenue growth by a quarter** on held-out data (r = 0.43) | SvelteKit, Bun, Prisma, Kafka, PostgreSQL, Redis |
-| **[Outcast Virus](https://devpost.com/software/outcast-virus)** | End-to-end autonomy OS for drone and ground-vehicle swarms — camera-based vSLAM, onboard perception, RL-trained multi-agent navigation. **1st place** at DS3 × Bow Capital: **won $4k, then a $100k offer** to continue | Python, ORB-SLAM3, YOLO11, Jetson, React, Three.js |
 | **[dont-hallucinate](https://pypi.org/project/dont-hallucinate/)** | Intercepts coding-agent shell failures, classifies what went wrong, suggests fixes — and mocks your agent. **500+ downloads** on PyPI and npm | Python, Bash, PowerShell |
 | **[weighted_map](https://github.com/alexgaoth/weighted_map)** | The contiguous US redrawn so distance is travel time, not space. **253 origins**, drive or fly, orbitable in 3-D ([live](https://cool-maps.vercel.app)) | Python, WebGL, GeoPandas, OSRM |
-| **Political Speech Classifier** | Encoder-only transformer from raw matrix operations — **no ML framework**; attention, embeddings and the training loop by hand. **98.9% agreement** with AllSides | Python, NumPy |
-| **[ferrodoc](https://github.com/alexgaoth/ferrodoc)** | Pandoc-compatible document converter — CommonMark, GFM, HTML, DOCX — in process rather than by subprocess. **On PyPI** | Rust, Python, WASM |
+| **[Outcast Virus](https://devpost.com/software/outcast-virus)** | End-to-end autonomy OS for drone and ground-vehicle swarms — camera-based vSLAM, onboard perception, RL-trained multi-agent navigation. **1st place** at DS3 × Bow Capital: **won $4k, then a $100k offer** to continue | Python, ORB-SLAM3, YOLO11, Jetson, React, Three.js |
 | **[3D Fractal Simulator](https://github.com/alexgaoth/JuliaSetFractal)** | Full 3-D Julia set generator and explorer, hand-written at 15 before LLMs ([live](https://intro.alexgaoth.com/JuliaSetFractal/)) | Unity, C# |
 | **[routine-architect](https://github.com/alexgaoth/routine-architect)** | Deploys a fleet of scheduled cloud agents from a committed manifest, with a watchdog that audits the fleet daily | Claude Code, Python |
 | **[claude-iterate](https://github.com/alexgaoth/claude-iterate)** | Builder/critic loop — fresh critic agents review each round against a frozen goal until the work passes | Claude Code, Markdown agents |
 | **[UCSD Crimes](https://github.com/alexgaoth/UCSD_Crimes)** | Scrapes, organises and alerts on the UCSD campus crime log ([live](https://alexgaoth.com/UCSD_Crimes/)) | Python, Selenium, React, Node |
 
 
-More, with screenshots → **[alexgaoth.com/projects](https://alexgaoth.com/projects)**
+More: **[alexgaoth.com/projects](https://alexgaoth.com/projects)**
 
 ## Commits
 
