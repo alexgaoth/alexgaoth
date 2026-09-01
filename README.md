@@ -1,13 +1,14 @@
+![Dithered wave banner](banner.svg)
 
 # Alex Gao
 
 Math-CS @ **UC San Diego**.
 
-🥇Gold, British Informatics Olympiad 
-🥇 **2× Gold**, British Mathematical Olympiad I 
-🥈 Silver, British Algorithmic Olympiad 
-**6× hackathon winner**  
-SWE intern @ **IBM** prev. Climind 
+🥇Gold, British Informatics Olympiad<br>
+🥇 **2× Gold**, British Mathematical Olympiad I<br>
+🥈 Silver, British Algorithmic Olympiad<br>
+**6× hackathon winner**<br>
+SWE intern @ **IBM** prev. Climind<br>
 founded [Signalor](https://signalor.app)
 
 
@@ -44,6 +45,7 @@ Those two principles guide my professional career, and I have and will continuou
 |---|---|---|
 | **[Signalor](https://signalor.app)** | Public-sentiment platform for brands and investment firms. Sentiment **led Apple's YoY revenue growth by a quarter** on held-out data (r = 0.43) | SvelteKit, Bun, Prisma, Kafka, PostgreSQL, Redis |
 | **[dont-hallucinate](https://pypi.org/project/dont-hallucinate/)** | Intercepts coding-agent shell failures, classifies what went wrong, suggests fixes — and mocks your agent. **500+ downloads** on PyPI and npm | Python, Bash, PowerShell |
+| **[ferrodoc](https://github.com/alexgaoth/ferrodoc)** | Pandoc-compatible document converter in Rust — converts in your own process instead of spawning a 160 MB binary per file. **72× faster** on 10,000 DOCX (374 s → 5.2 s), **47/48** real pandoc command lines byte-identical. On [PyPI](https://pypi.org/project/ferrodoc/), crates.io and npm | Rust, Python, WASM, C ABI |
 | **[weighted_map](https://github.com/alexgaoth/weighted_map)** | The contiguous US redrawn so distance is travel time, not space. **253 origins**, drive or fly, orbitable in 3-D ([live](https://cool-maps.vercel.app)) | Python, WebGL, GeoPandas, OSRM |
 | **[Outcast Virus](https://devpost.com/software/outcast-virus)** | End-to-end autonomy OS for drone and ground-vehicle swarms — camera-based vSLAM, onboard perception, RL-trained multi-agent navigation. **1st place** at DS3 × Bow Capital: **won $4k, then a $100k offer** to continue | Python, ORB-SLAM3, YOLO11, Jetson, React, Three.js |
 | **[3D Fractal Simulator](https://github.com/alexgaoth/JuliaSetFractal)** | Full 3-D Julia set generator and explorer, hand-written at 15 before LLMs ([live](https://intro.alexgaoth.com/JuliaSetFractal/)) | Unity, C# |

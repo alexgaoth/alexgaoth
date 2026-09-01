@@ -4,7 +4,7 @@ GitHub profile README repo (`alexgaoth/alexgaoth`). The README renders on the pr
 
 ## Generated files — never hand-edit
 
-- `banner.svg` — regenerate with `python3 scripts/make_banner.py > banner.svg`; edit the field function in the script.
+- `banner.svg` — regenerate with `python3 scripts/make_banner.py > banner.svg`; edit `FRONTS`/`field()` in the script. Its palette is locked to the Stack badge scheme (`#161b22` ground, white dots).
 - `metrics.isocalendar.svg` — written daily by `.github/workflows/metrics.yml`. Local edits are overwritten.
 
 ## Rules
@@ -20,7 +20,9 @@ GitHub profile README repo (`alexgaoth/alexgaoth`). The README renders on the pr
 ## Gotchas
 
 - Animate SVG with CSS `@keyframes`, not SMIL. Chrome pauses SMIL in hidden/background tabs, so an SMIL banner renders frozen and cannot be verified under browser automation; CSS animations keep running.
-- Verify README rendering with GitHub's own parser: `gh api -X POST /markdown --input <json with {mode:"gfm",text:...}>`. A single newline in a `.md` file is not a line break — end the line with two spaces.
+- Verify README rendering with `gh api -X POST /markdown --input <json with {mode:"markdown",text:...}>`. Use `mode:"markdown"`, never `mode:"gfm"`: gfm is *comment* rendering, where every newline becomes a `<br>`, so a broken line break passes the check. Tables still render under `markdown`.
+- To break a line in the README, use an explicit `<br>`. A plain newline and a single trailing space both clump; two trailing spaces work but are invisible in an editor and were silently lost twice.
 - The Stack section is generated: edit `scripts/make_badges.py`, run it, and splice the output between `## Stack` and the next heading. Verify with `./scripts/check_badges.sh`.
 - An unknown shields.io logo slug still returns HTTP 200, just with no icon — status alone proves nothing, so check the body contains `data:image` (what `check_badges.sh` does). Simple-icons keeps dropping trademarked slugs; dead so far: `csharp` (use `dotnet`), `css3` (use `css`), and `powershell`, `openai`, `playwright`, `aws`, `apify` (no icon exists — omit the logo).
-- The Chrome extension refuses `file://`. To inspect `banner.svg`, serve the directory over `python3 -m http.server` and load `http://localhost:<port>/`.
+- To look at `banner.svg`, rasterize it: `google-chrome --headless=new --disable-gpu --screenshot=out.png --window-size=900,140 --allow-file-access-from-files file://<abs path to a wrapper .html>`. The Chrome extension refuses `file://`, so the alternative is serving the directory over `python3 -m http.server` — slower, and unnecessary for a still frame.
+- Judge the dither field by rasterizing it, never by an ASCII/level dump. At the strip's 10:1 aspect a crest that looks wavy in a level dump renders as flat horizontal stripes; amplitude has to be read against the 1200px width, not against the tile grid.
