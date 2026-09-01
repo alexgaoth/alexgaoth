@@ -1,15 +1,14 @@
-![Dithered wave banner](banner.svg)
+![Dithered panorama banner](banner.png)
 
 # Alex Gao
 
 Math-CS @ **UC San Diego**.
-
+SWE intern @ **IBM** prev. @ Climind<br>
+founded [Signalor](https://signalor.app)<br>
 🥇Gold, British Informatics Olympiad<br>
 🥇 **2× Gold**, British Mathematical Olympiad I<br>
 🥈 Silver, British Algorithmic Olympiad<br>
-**6× hackathon winner**<br>
-SWE intern @ **IBM** prev. Climind<br>
-founded [Signalor](https://signalor.app)
+**6× hackathon winner**: YCxBrowserUse · SDxAnthropic · SDxVercel · DS3xBowCapital etc..<br>
 
 
 I have two career principles:
