@@ -2,8 +2,13 @@
 # Alex Gao
 
 Math-CS @ **UC San Diego**.
-🥇Gold, British Informatics Olympiad · 🥇 **2× Gold**, British Mathematical Olympiad I · 🥈 Silver, British Algorithmic Olympiad · **5× hackathon winner**  
-SWE intern @ **IBM** prev. Climind · founded [Signalor](https://signalor.app)
+
+🥇Gold, British Informatics Olympiad 
+🥇 **2× Gold**, British Mathematical Olympiad I 
+🥈 Silver, British Algorithmic Olympiad 
+**6× hackathon winner**  
+SWE intern @ **IBM** prev. Climind 
+founded [Signalor](https://signalor.app)
 
 
 I have two career principles:
