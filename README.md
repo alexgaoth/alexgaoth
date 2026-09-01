@@ -2,7 +2,7 @@
 
 # Alex Gao
 
-Math-CS @ **UC San Diego**.
+Math-CS @ **UC San Diego**.<br>
 SWE intern @ **IBM** prev. @ Climind<br>
 founded [Signalor](https://signalor.app)<br>
 🥇Gold, British Informatics Olympiad<br>
