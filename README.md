@@ -6,7 +6,7 @@
 
 # Alex Gao
 
-Member of Technical Staff @Hypercubic (YC F25)
+Member of Technical Staff @Hypercubic (YC F25) <br>
 Math-CS @ UCSD.<br>
 prev. @IBM @ Climind<br>
 building [Signalor](https://signalor.app)<br>
