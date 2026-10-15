@@ -6,9 +6,8 @@
 
 # Alex Gao
 
-Member of Technical Staff @Hypercubic (YC F25) <br>
-Math-CS @ UCSD.<br>
-prev. @IBM @ Climind<br>
+Member of Technical Staff intern @Hypercubic (YC F25) <br>
+prev. @IBM @Bloomberg<br>
 building [Signalor](https://signalor.app)<br>
 🥇 Gold, British Informatics Olympiad<br>
 🥇 2× Gold, British Mathematical Olympiad I<br>
