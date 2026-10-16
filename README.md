@@ -1,7 +1,7 @@
 ![Dithered panorama banner](banner.png)
 
 <div align="right">
-<a href="https://maps.app.goo.gl/6FWxVJk4RoagVWzd6"><img src="https://cdn.simpleicons.org/googlemaps/000000/ffffff" height="12" alt="" align="absmiddle"> <em><ins>Mt Umunhum, 37.1605&deg; N 121.8986&deg; W</ins></em></a>
+Mt Umunhum, <a href="https://maps.app.goo.gl/6FWxVJk4RoagVWzd6"><img src="https://cdn.simpleicons.org/googlemaps/000000/ffffff" height="12" alt="" align="absmiddle"> <em><ins> 37.1605&deg; N 121.8986&deg; W</ins></em></a>
 </div>
 
 # Alex Gao
