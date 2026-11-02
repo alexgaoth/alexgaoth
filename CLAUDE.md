@@ -11,7 +11,8 @@ GitHub profile README repo (`alexgaoth/alexgaoth`). The README renders on the pr
 
 ## Rules
 
-- The Stack badge wall is deliberately exhaustive — every language, framework and tool Alex has touched. Add to it; never trim it for tidiness.
+- The Stack badge wall is curated, not exhaustive: on 2026-11-01 Alex had it pruned (the Backend & APIs group dissolved into Frameworks, low-signal tags dropped). Every badge links to a Wikipedia article. If a tag has no article of its own, link the nearest concept (Prisma → Object–relational mapping) only when the resume or a project backs the tag; otherwise leave it off.
+- The project table is a shortlist of the strongest results, ordered by strength. Everything else lives at alexgaoth.com/projects.
 - No language-distribution chart. Do not re-enable the `plugin_languages` step in the metrics workflow.
 - Every project row states a concrete result (place, metric, "on PyPI"), never an adjective.
 - Stack entries come from three sources: the resume, the project list in `alexgaoth.github.io`, and declared dependencies across the repos in `~/Documents`. Exclude deps found only in `github.ibm.com` repos (IBM-internal) or only in cloned third-party repos like `the-algorithm` (Twitter's, not Alex's).
@@ -25,6 +26,7 @@ GitHub profile README repo (`alexgaoth/alexgaoth`). The README renders on the pr
 - Verify README rendering with `gh api -X POST /markdown --input <json with {mode:"markdown",text:...}>`. Use `mode:"markdown"`, never `mode:"gfm"`: gfm is *comment* rendering, where every newline becomes a `<br>`, so a broken line break passes the check. Tables still render under `markdown`.
 - To break a line in the README, use an explicit `<br>`. A plain newline and a single trailing space both clump; two trailing spaces work but are invisible in an editor and were silently lost twice.
 - The Stack section is generated: edit `scripts/make_badges.py`, run it, and splice the output between `## Stack` and the next heading. Verify with `./scripts/check_badges.sh`.
+- Wikipedia answers HTTP 429 within seconds when hit once per link, so `check_badges.sh` checks titles through the API in batches, which also flags disambiguation pages. Prefer a redirect title (`GDScript`, `Qdrant`, `Claude Code`) over its target: the link upgrades on its own if the article is ever written.
 - An unknown shields.io logo slug still returns HTTP 200, just with no icon — status alone proves nothing, so check the body contains `data:image` (what `check_badges.sh` does). Simple-icons keeps dropping trademarked slugs; dead so far: `csharp` (use `dotnet`), `css3` (use `css`), and `powershell`, `openai`, `playwright`, `aws`, `apify` (no icon exists — omit the logo).
 - GitHub's README sanitizer strips `<u>` silently (the text renders, unstyled) — underline with `<ins>`. `<div align="right">` and `align="absmiddle"` on `<img>` do survive. Check by diffing the `/markdown` API output, not by eye.
 - For a monochrome icon that follows the reader's theme, use `https://cdn.simpleicons.org/<slug>/<light hex>/<dark hex>` — the SVG carries its own `prefers-color-scheme` rule. Headless Chrome here defaults to *dark*, so such an icon renders white and looks missing on a white test page; force light with `--blink-settings=preferredColorScheme=1`.
