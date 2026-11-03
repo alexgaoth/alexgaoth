@@ -12,7 +12,7 @@ building [Signalor](https://signalor.app)<br>
 🥇 Gold, British Informatics Olympiad<br>
 🥇 2× Gold, British Mathematical Olympiad I<br>
 🥈 Silver, British Algorithmic Olympiad<br>
-6× hackathon winner: YCxBrowserUse · SDxAnthropic · SDxVercel · DS3xBowCapital etc..<br>
+6× hackathon winner: SDxAnthropic · SDxVercel · DS3xBowCapital etc..<br>
 
 
 I have two career principles:
@@ -43,8 +43,8 @@ Those two principles guide my professional career, and I have and will continuou
 
 | Project | What it is | Result |
 |---|---|---|
-| **[Signalor](https://signalor.app)** | Public-sentiment intelligence for brands and investment firms | Sentiment **led Apple's YoY revenue growth by a quarter** on held-out data (r = 0.43) |
-| **[Outcast Virus](https://devpost.com/software/outcast-virus)** | Autonomy OS for drone and ground-vehicle swarms | **1st place**, DS3 × Bow Capital: $4k, then a **$100k offer** to continue |
+| **[Signalor](https://signalor.app)** | Consumer sentiment data for investment firms | Sentiment **led all of FAANG YoY revenue growth by a quarter** on held-out data (r = 0.43) |
+| **[Outcast Virus](https://devpost.com/software/outcast-virus)** | Autonomy OS for drone and ground-vehicle swarms | **1st place**, DS3 × Bow Capital: $5k |
 | **[awesome-reverse-engineered](https://github.com/alexgaoth/awesome-reverse-engineered)** | Searchable index of open-source tools built by reverse engineering closed apps, APIs, devices and file formats | **1,100+ stars**, **17,000+ projects** indexed and refreshed nightly ([search](https://awesome.alexgaoth.com)) |
 | **[ferrodoc](https://github.com/alexgaoth/ferrodoc)** | Pandoc-compatible document converter in Rust | **72× faster** than pandoc on 10,000 DOCX, **47/48** command lines byte-identical |
 | **[dont-hallucinate](https://pypi.org/project/dont-hallucinate/)** | Shell guardrail for coding agents | **500+ downloads** on PyPI and npm |
